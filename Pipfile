@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "cs"
+
+[packages]
+click = "*"
+matplotlib = "*"
+numpy = "*"
+cs-jmd = {editable = true, path = "."}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

@@ -14,7 +14,7 @@ CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 @click.command(options_metavar='[options]', context_settings=CONTEXT_SETTINGS)
 def cli(version, verbose, inp):
     if (version):
-        MAJOR, MINOR, PATCH = '0', '1', '0'
+        MAJOR, MINOR, PATCH = '0', '0', '1'
         print(f'strmanip - v{MAJOR}.{MINOR}.{PATCH}')
         return
 
@@ -29,5 +29,5 @@ def cli(version, verbose, inp):
     plt.show()
 
 
-if __name__ == '__main__':
-    cli()
+# if __name__ == '__main__':
+    # cli()
