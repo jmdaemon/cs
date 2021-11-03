@@ -25,13 +25,13 @@ setuptools.setup(
     python_requires=">=3.6",
     py_modules=['cs'],
     install_requires=[
-        'Click',
+        'argparse',
         'matplotlib',
         'numpy'
     ],
     entry_points={
         'console_scripts': [
-            'cs = cs:cli',
+            'cs = cs:main',
         ],
     },
 
